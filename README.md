@@ -421,7 +421,7 @@ you can assign roles to departments and teams
     - Email: `john@ianbates.com`
     - Username: `john`
     - Department: `Support`
-    - Role: `View Only`
+    - Role: `Super Admin` (_This is a custom Role I created_)
     - Permissions: `Defaults`
     - Team: `None`
  
