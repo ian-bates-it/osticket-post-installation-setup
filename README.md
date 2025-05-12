@@ -143,7 +143,115 @@ you can assign roles to departments and teams
 
 ---
 
-<h3>Next</h3>
+<h2>osTicket Departments</h2>
+
+- Departments are sectors like `Help Desk` vs `SysAdmins` vs `Networking`.
+- Each department will have different visibility rights.
+
+
+<br />
+<br />
+
+---
+
+<h3>View Departments: Admin Panel > Agents > Departments</h3>
+
+- To view `Departments` in the `Admin Panel:
+
+1. Click on the `Agents` Tab.
+2. Click on the `Departments` Tab as shown below.
+
+  <img src="https://github.com/user-attachments/assets/94bfcb3f-d901-48f6-93de-c346471a8adc" height="60%" width="60%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>Add A New Department</h3>
+
+- In the Departments View, click the `Add New Department` button as shown below.
+
+  <img src="https://github.com/user-attachments/assets/121dd992-95ea-4916-be77-5b517025e79a" height="60%" width="60%" />
+
+
+<br />
+<br />
+
+---
+
+<h3>Department Information > Settings</h3>
+
+- The `Parent` field can be either `Top-Level` or a lower level. In this example, I will select `Top-Level Department`. 
+- Add a name for the group. Here, I'll make a department named `SysAdmins`.
+  
+- We'll go with the default options for the other fields.
+- Later, we will create an SLA, but for now we will leave that field with the `System Default`.
+
+  <img src="https://github.com/user-attachments/assets/2609de1a-7e80-4d22-94df-2c32ad4ffa6d" height="60%" width="60%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>Department Information > Access </h3>
+
+- In the `Access` sub-tab, you would add an agent to the department we are creating.
+- We will come back to this later after we create Agents to add to this department.
+
+  <img src="https://github.com/user-attachments/assets/9a6d5cc9-b998-4307-a114-c8b2e8ac3c21" height="50%" width="50%" />
+
+
+<br />
+<br />
+
+- Click the `Create Dept` button to create our example `SysAdmin` Department as shown below.
+
+  <img src="https://github.com/user-attachments/assets/99f98500-fb86-4354-b1af-026b5e78ae99" height="50%" width="50%" />
+
+
+<br />
+<br />
+
+---
+
+<h3>New Department (`SysAdmins`) Successfully Created</h3>
+
+- Confirmation that our new department `SysAdmins` was successfully created will look something like this:
+
+  <img src="https://github.com/user-attachments/assets/b00eb0c8-009b-4031-a434-97763e597a76" height="50%" width="50%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h2>osTicket Teams</h2>
+
+- The purpose of Teams is to create a group of people who are all from DIFFERENT Departments.
+- Example: Online Banking team may consist of people from the `SysAdmins` Department and `Customer Service` Department, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
