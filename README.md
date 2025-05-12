@@ -616,3 +616,112 @@ you can assign roles to departments and teams
 
 
 
+<br />
+<br />
+
+
+<h3>Add New Help Topic: `Business Critical Outage`</h3>
+
+
+1. From the `Admin Panel` view, click on the `Manage` Tab
+2. Click on the `Help Topics` sub-menu.
+3. Click the `Add New Help Topic` button as shown below.
+
+
+    <img src="https://github.com/user-attachments/assets/b4a0ea39-859b-4702-bf4a-22b3201d6be8" height="50%" width="50%" />
+
+
+<br />
+<br />
+
+
+4. Add Help Topic Name. Here I went with `Business Critical Outage`.
+5. **Parent Topic**: I selected `Report a Problem`
+  - Select the Parent Topic to which this Help Topic will belong. The Parent Topic will appear first in the listing with this Help Topic listed behind the parent.
+6. Click the `Add Topic` button to complete this process.
+
+
+
+    <img src="https://github.com/user-attachments/assets/9d6a6c3c-12ff-4ead-903a-49eb7db8dbfa" height="60%" width="60%" />
+
+
+
+
+
+<br />
+<br />
+
+
+<h3>Add A Second Help Topic: `Personal Computer Issues`</h3>
+
+- Repeating the six steps outlined above in the first help topic, I repeated that process to create a second help topic called `Personal Computer Issues` as shown below.
+
+
+    <img src="https://github.com/user-attachments/assets/46048432-274b-4535-911d-45c9aa293028" height="60%" width="60%" />
+
+
+
+
+<br />
+<br />
+
+
+<h3>Add A Third Help Topic: `Equipment Request` of Parent Topic `General Inquiry`</h3>
+
+
+- Repeating the six steps outlined above in the first help topic, I repeated that process to create a third help topic called `Equipment Request` with a Parent Topic of `General Inquiry` as shown below.
+
+
+    <img src="https://github.com/user-attachments/assets/27b8d825-babb-42ee-8adf-b0cc9e7f1ff1" height="60%" width="60%" />
+
+
+
+
+<br />
+<br />
+
+
+<h3>Add A Fourth Help Topic: `Password Reset` of Parent Topic `Report a Problem`</h3>
+
+- Repeating the six steps outlined above in the first help topic, I repeated that process to create a fourth help topic called `Password Reset` with a Parent Topic of  `Report a Problem as shown below.
+
+
+    <img src="https://github.com/user-attachments/assets/ed97570d-1bed-4399-8831-9b00b3c23f4f" height="60%" width="60%" />
+
+
+
+
+<br />
+<br />
+
+
+<h3>Add A Final Fifth Catchall Help Topic: `Other` of Parent Topic `General Inquiry`</h3>
+
+- Repeating the six steps outlined above in the first help topic, I repeated that process to create a fifth help topic called `Other` with a Parent Topic of `General Inquiry` as shown below.
+
+    <img src="https://github.com/user-attachments/assets/2a367128-56e7-4beb-b7ec-745fbaebb2e2" height="60%" width="60%" />
+
+
+<br />
+<br />
+
+<h3>Summary of the Five New Help Topcics</h3>
+
+
+- In the `Help Topics` view, we can see a summary of all five help topics that were added above.
+
+![image](https://github.com/user-attachments/assets/27f6ed52-55ff-48bd-a0d5-638b8f4e6725)
+
+
+
+
+
+<br />
+<br />
+
+<h3>This concludes the osTicket Post-Installation Setup</h3>
+
+
+- To continue this series, see the next repo in this series [at this link here on osTicket Life Cycle.](https://github.com/ian-bates-it/osticket-tickets-and-lifecycle)
+
+
