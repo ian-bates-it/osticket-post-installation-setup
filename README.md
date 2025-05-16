@@ -4,7 +4,8 @@
 
 # Chapter 2: osTicket Post-installation Setup
 
-- In this chapter, we will log into the osTicket Admin Panel and create 
+- In this chapter, we will log into the osTicket Admin Panel and create New Roles, Departments, Teams, Agents, Service Level Agreements (SLA), Users (end-users) and Help Topics.
+- All of the settings we create in Chapter 2 will be used in the final [Chapter 3 of this series where we examine Tickets and the Ticket Lifecycle.](https://github.com/ian-bates-it/osticket-tickets-and-lifecycle) 
 
 <h2>Environments and Technologies Used</h2>
 
