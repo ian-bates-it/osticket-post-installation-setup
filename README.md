@@ -1,14 +1,63 @@
-# osTicket Post-installation Setup
-
----
-
 <p align="center">
 <img src="https://github.com/user-attachments/assets/767c4af0-9d0c-4ed8-8156-61a84a56a6ce" alt="Microsoft Active Directory Logo"/>
 </p>
 
----
+# osTicket Post-installation Setup
 
 
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Internet Information Services (IIS)
+- osTicket Software version 1.15.8 
+- Mcirosoft Visual C++ Redistributable (x86)
+- IIS URL Rewrite Module 2
+- PHP Manager For IIS 
+- PHP version 7.3.8 
+- MySQL version 5.5.62 
+- HeidiSQL version 12.3.0.6589
+
+<h2>Operating Systems Used </h2>
+
+- Windows 10 Pro (21H2) 
+
+
+<h2>High-Level Configuration Steps</h2>
+
+- Part 1: [Log into the osTicket Admin Panel](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#log-into-osticket)
+- Part 2: [View Roles and Add a New Role (`Super Admin`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-a-role)
+  - Part 2A: [Set the Tickets Permissions for the New Role (`Super Admin`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#click-on-the-permissions-tab--tickets-permissions)
+  - Part 2B: [Set the Tasks Permissions for the New Role (`Super Admin`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#click-on-the-permissions-tab--tasks-permissions)
+  - Part 2C: [Set the Knowledgebase Permissions for the New Role (`Super Admin`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#click-on-the-permissions-tab--knowledgebase-permissions)
+- Part 4: [View Departments and Add a New Department (`SysAdmins`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#osticket-departments)
+  - Part 4A: [Set the Settings for the New Department (`SysAdmins`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#department-information--settings)
+  - Part 4B: [Set the Access rights for the New Department (`SysAdmins`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#department-information--access-)   
+- Part 5: [View Teams and Create a New Team (`Online Banking`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#osticket-teams)
+  - Part 5A: [Set the Settings for the New Team (`Online Banking`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#new-team-settings)
+- Part 6: [Confirm that Guest Accounts can create tickets](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#confirm-guest-accounts-can-create-tickets)
+- Part 7: [Add a new Agent (`Jane Doe`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-a-new-agent)
+  - Part 7A: [Repeat Part 7 and create a second agent (`John Doe`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-another-agent-john-doe)
+- Part 8: [Add a New User (`Karen Doe`)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-a-new-user)
+- Part 9: [Create a Service Level Agreement (SLA)](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#create-a-service-level-agreement-sla)
+  - Part 9A: [Add New SLA called Sev-A](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-new-sla-plan-for-sev-a-sla)
+  - Part 9B: [Add New SLA called Sev-B](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-new-sla-plan-for-sev-b-sla)
+  - Part 9C: [Add New SLA called Sev-C](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-new-sla-plan-for-sev-c-sla)
+- Part 10: []()
+- Part 11: []()
+- Part 12: []()
+- Part 13: []()
+
+
+
+
+
+<!--
+## Prerequisites
+
+- [Complete Chapter 1, Part 2 of the Active Directory Home Lab, Creating a Windows 10 Pro Virtual Machine (version 22H2) in Azure](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#part-2) 
+  - _Or access to any Windows 10  or 11 operating system will be required for this particular series on osTicket._
+-->
 
 
 ---
@@ -249,7 +298,7 @@ you can assign roles to departments and teams
 - In the `Agents > Teams` view, select the `Add New Team` button as shown below. 
 
 
-  <img src="https://github.com/user-attachments/assets/e7059caf-4670-4e02-925b-e4ad9540a08d" height="60%" width="60%" />
+  <img src="https://github.com/user-attachments/assets/e7059caf-4670-4e02-925b-e4ad9540a08d" height="90%" width="90%" />
 
 
 
@@ -334,7 +383,7 @@ you can assign roles to departments and teams
 
 - In the Agents Tab, select `Add New Agent`.
 
-    <img src="https://github.com/user-attachments/assets/2dfff03f-8eeb-48ce-a33f-40d69b3a7e93" height="50%" width="50%" />
+    <img src="https://github.com/user-attachments/assets/2dfff03f-8eeb-48ce-a33f-40d69b3a7e93" height="80%" width="80%" />
 
 <br />
 <br />
@@ -483,7 +532,7 @@ you can assign roles to departments and teams
 - Our new user Karen Doe was created as shown below.
 
 
-    <img src="https://github.com/user-attachments/assets/492a6f38-49c3-4721-b086-f27c8d64b6ef" height="50%" width="50%" />
+    <img src="https://github.com/user-attachments/assets/492a6f38-49c3-4721-b086-f27c8d64b6ef" height="80%" width="80%" />
 
 
 <br />
@@ -524,7 +573,7 @@ you can assign roles to departments and teams
 2. Then, click on the `SLA` sub-menu. 
 3. Finally, click on the `Add New SLA Plan` as shown below.
 
-    <img src="https://github.com/user-attachments/assets/595dc2af-99ac-45c5-b198-ed0613ff54bd" height="50%" width="50%" />
+    <img src="https://github.com/user-attachments/assets/595dc2af-99ac-45c5-b198-ed0613ff54bd" height="70%" width="70%" />
 
 
 <br />
@@ -543,7 +592,7 @@ you can assign roles to departments and teams
 - Go with the default options for everything else.
 - Click `Add Plan` to create this SLA for `Sev-A`.
 
-    <img src="https://github.com/user-attachments/assets/a9dc3960-aac7-4333-982a-4971a9eb1041" height="50%" width="50%" />
+    <img src="https://github.com/user-attachments/assets/a9dc3960-aac7-4333-982a-4971a9eb1041" height="90%" width="90%" />
 
 
 
@@ -563,7 +612,7 @@ you can assign roles to departments and teams
 - Go with the default options for everything else.
 - Click `Add Plan` to create this SLA for `Sev-B`.
 
-    <img src="https://github.com/user-attachments/assets/acd2396e-6b6d-4116-bf87-d7c3066cb1d6" height="50%" width="50%" />
+    <img src="https://github.com/user-attachments/assets/acd2396e-6b6d-4116-bf87-d7c3066cb1d6" height="90%" width="90%" />
 
 
 
@@ -585,7 +634,7 @@ you can assign roles to departments and teams
 - Click `Add Plan` to create this SLA for `Sev-C`.
 
 
-    <img src="https://github.com/user-attachments/assets/382cfd99-c8d8-4baa-a320-4e83442b6add" height="50%" width="50%" />
+    <img src="https://github.com/user-attachments/assets/382cfd99-c8d8-4baa-a320-4e83442b6add" height="90%" width="90%" />
  
 
 
@@ -597,7 +646,7 @@ you can assign roles to departments and teams
 
 - In the SLA menu, we can now see a summary of the three SLA's we created.
 
-    <img src="https://github.com/user-attachments/assets/3adf2db8-a196-4f04-8d85-483ee8b25955" height="50%" width="50%" />
+    <img src="https://github.com/user-attachments/assets/3adf2db8-a196-4f04-8d85-483ee8b25955" height="100%" width="100%" />
 
 
 
