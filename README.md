@@ -2,8 +2,9 @@
 <img src="https://github.com/user-attachments/assets/767c4af0-9d0c-4ed8-8156-61a84a56a6ce" alt="Microsoft Active Directory Logo"/>
 </p>
 
-# osTicket Post-installation Setup
+# Chapter 2: osTicket Post-installation Setup
 
+- In this chapter, we will log into the osTicket Admin Panel and create 
 
 <h2>Environments and Technologies Used</h2>
 
@@ -43,10 +44,13 @@
   - Part 9A: [Add New SLA called Sev-A](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-new-sla-plan-for-sev-a-sla)
   - Part 9B: [Add New SLA called Sev-B](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-new-sla-plan-for-sev-b-sla)
   - Part 9C: [Add New SLA called Sev-C](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-new-sla-plan-for-sev-c-sla)
-- Part 10: []()
-- Part 11: []()
-- Part 12: []()
-- Part 13: []()
+- Part 10: [Create Help Topics](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#create-help-topics)
+  - Part 10A: [Create New Help Topic: `Business Critical Outage`](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-new-help-topic-business-critical-outage)
+  - Part 10B: [Create New Help Topic: `Personal Computer Issues`](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-a-second-help-topic-personal-computer-issues)
+  - Part 10C: [Create New Help Topic: `Equipment Request`](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-a-third-help-topic-equipment-request-of-parent-topic-general-inquiry)
+  - Part 10D: [Create New Help Topic: `Password Reset`](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-a-fourth-help-topic-password-reset-of-parent-topic-report-a-problem)
+  - Part 10E: [Create New Catchall Help Topic: `Other`](https://github.com/ian-bates-it/osticket-post-installation-setup?tab=readme-ov-file#add-a-final-fifth-catchall-help-topic-other-of-parent-topic-general-inquiry)
+
 
 
 
